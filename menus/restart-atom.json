@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Restart Atom",
+        "command": "restart-atom:restart"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Restart Atom",
+          "submenu": [
+            {
+              "label": "Restart",
+              "command": "restart-atom:restart"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
