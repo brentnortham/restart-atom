@@ -21,6 +21,15 @@
           ]
         }
       ]
+    },
+    {
+      "label": "File",
+      "submenu": [
+        {
+          "label": "Restart",
+          "command": "restart-atom:restart"
+        }
+      ]
     }
   ]
 }
